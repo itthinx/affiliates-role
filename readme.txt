@@ -6,4 +6,4 @@ Requires at least: 3.8
 Tested up to: 4.0
 Stable tag: 1.0.0
 
-This plugin (if activated) adds the 'Affiliate' role to affiliates when they register through the <a href="http://www.itthinx.com/plugins/affiliates/">Affiliates</a>.
+This plugin (if activated) adds the 'Affiliate' role to affiliates when they register through <a href="http://www.itthinx.com/plugins/affiliates/">Affiliates</a>.
