@@ -1,4 +1,4 @@
 affiliates-role
 ===============
 
-Assigns a role to new affiliates
+Assigns the 'Affiliate' role to new affiliates.
