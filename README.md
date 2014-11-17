@@ -1,4 +1,8 @@
 affiliates-role
 ===============
 
-Assigns the 'Affiliate' role to new affiliates.
+Adds the 'Affiliate' role to new affiliates.
+
+_About_
+
+This plugin (if activated) adds the 'Affiliate' role to affiliates when they register through the <a href="http://www.itthinx.com/plugins/affiliates/">Affiliates</a>.
