@@ -14,9 +14,9 @@
 *
 * This header and all notices must be kept intact.
 *
-* @author Karim Rahimpur
+* @author itthinx
 * @package affiliates-role
-* @since affiliate-role 1.0.0
+* @since 1.0.0
 *
 * Plugin Name: Affiliates Role
 * Plugin URI: http://www.itthinx.com/plugins/affiliates
@@ -40,9 +40,9 @@ class Affiliates_Role {
 	
 	public static function activate() {
 		add_role( 'affiliate', 'Affiliate', array(
-			'read' 						=> true,
-			'edit_posts' 				=> false,
-			'delete_posts' 				=> false
+			'read'         => true,
+			'edit_posts'   => false,
+			'delete_posts' => false
 		) );
 	}
 
