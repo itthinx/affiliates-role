@@ -20,7 +20,7 @@
 *
 * Plugin Name: Affiliates Role
 * Plugin URI: http://www.itthinx.com/plugins/affiliates
-* Description: Assigns the Affiliate role to new affiliate users. 
+* Description: Adds the 'Affiliate' role to new users who are registered through the affiliate registration.
 * Version: 1.0.0
 * Author: itthinx
 * Author URI: http://www.itthinx.com
@@ -49,7 +49,11 @@ class Affiliates_Role {
 	public static function affiliates_added_affiliate( $affiliate_id ) {
 		if ( $user_id = affiliates_get_affiliate_user( $affiliate_id ) ) {
 			if ( $user = get_user_by('id', $user_id ) ) {
-				$user->set_role( 'affiliate' );
+				// Add the Affiliate role to the user.
+				$user->add_role( 'affiliate' );
+				// If the role should substitute the user's role (Subscriber by default),
+				// set_role should be used instead:
+				//$user->set_role( 'affiliate' );
 			}
 		}
 	}
