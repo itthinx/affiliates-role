@@ -20,7 +20,7 @@
 *
 * Plugin Name: Affiliates Role
 * Plugin URI: http://www.itthinx.com/plugins/affiliates
-* Description: Adds the 'Affiliate' role to new users who are registered through the affiliate registration.
+* Description: Adds the 'Affiliate' role to new users who are registered through the <a href="http://www.itthinx.com/plugins/affiliates/">Affiliates</a> registration.
 * Version: 1.0.0
 * Author: itthinx
 * Author URI: http://www.itthinx.com
